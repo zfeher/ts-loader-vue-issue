@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    //Type Checking
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+
+    //Modules
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    //Emit
+    "declaration": true,
+    "declarationDir": "./declarations",
+    "declarationMap": true,
+
+    "outDir": "dist",
+    "removeComments": true,
+
+    //JS Support
+    "allowJs": true,
+    "checkJs": false,
+
+    //Interop Constraints
+    "esModuleInterop": true,
+
+    //Language and Environment
+    "target": "esnext"
+  },
+
+  "exclude": ["node_modules", "dist", "webpack.config.js", "declarations"]
+}
